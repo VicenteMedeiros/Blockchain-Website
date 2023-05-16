@@ -1,0 +1,41 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ccc;
+}
+
+img{
+    display:block;
+    max-width: 100%;
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+li a{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-div{
+    background-color: rgb(3, 3, 44);
+    
+}
+
+.header-div ul{
+    
+
+}
+
+.main-class{
+    background: linear-gradient(300deg, #740456, #110764);
+    padding: 200px;
+    
+    
+
+}
