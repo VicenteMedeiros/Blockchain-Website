@@ -145,3 +145,33 @@ h1{
 .img-div a:hover{
     background-color: #ccc;
 }
+.address-div{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+.address-div address{
+    margin-left: 3rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.address-div p::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    margin-right: 20px;
+    background-color: rgb(3, 3, 80);
+}
+.table-class{
+    margin: 2rem auto;
+    
+}
+
+.table-class th{
+    width: 20%;
+    
+}
+.th-class{
+    
+}
