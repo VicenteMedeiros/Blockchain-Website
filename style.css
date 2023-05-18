@@ -1,7 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color: #ccc;
+    background-color: white;
     
 }
 
@@ -60,6 +60,7 @@ h1{
     padding: 4px;
     border-radius: 5px;
     transition: .2s;
+    
 
 }
 .header-div a{
@@ -165,13 +166,21 @@ h1{
 }
 .table-class{
     margin: 2rem auto;
-    
+    line-height: 2;
 }
 
 .table-class th{
     width: 20%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
-.th-class{
-    
+.table-class td a{
+    color:rgb(3, 3, 80);
+    font-weight: bold;
+}
+.footer-class{
+    text-align: center;
 }
