@@ -63,6 +63,10 @@ h1{
     
 
 }
+.ul-div li{
+    display: flex;
+    
+}
 .header-div a{
     color: #ccc;
     margin: 15px;    
