@@ -19,7 +19,7 @@
   }
   to {
     opacity: 1;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0,-10px,0);
   }
 }
 
@@ -29,8 +29,11 @@
   background: rgb(6, 6, 102);
   border: 2px solid rgb(100, 11, 100);
   z-index: 200;
+  
 }
-
+.dropdown-menu li{
+  margin-top: 10px;
+}
 .dropdown-menu::before {
   content: '';
   display: block;
