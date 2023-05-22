@@ -61,12 +61,8 @@ h1{
     border-radius: 5px;
     transition: .2s;
     
+}
 
-}
-.ul-div li{
-    display: flex;
-    
-}
 .header-div a{
     color: #ccc;
     margin: 15px;    
